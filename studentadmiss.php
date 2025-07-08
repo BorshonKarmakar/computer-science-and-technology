@@ -106,7 +106,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" style="color: white;">Admission</a>
                         <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="http://localhost/Php/Computer%20Science%20And%20Technology/studentadmissionform.php">Student Admission Form</a></li>
+                            <li><a class="dropdown-item" href="http://localhost/Php/Computer%20Science%20And%20Technology/studentadmiss.php">Student Admission Form</a></li>
                             <li><a href="http://localhost/Php/Computer%20Science%20And%20Technology/searchroll.php" class="dropdown-item">Search Previous form</a></li>
                         </ul>
                     </li>
