@@ -573,7 +573,7 @@ session_start();
                     exit;
                 }
                 $query = "INSERT INTO admission (
-                    studentnameng, studentamebn, birthcertificate, dateofbirth, gender, fathername, fathernid, fatheroccupation, fatherincome, fathernumber,
+                    studentnameng, studentnamebn, birthcertificate, dateofbirth, gender, fathername, fathernid, fatheroccupation, fatherincome, fathernumber,
                     mothername, mothernid, motheroccupation, motherincome, mothernumber, guardian, nationality, email, studentmobile, religion, bloodgroup, 
                     typead, presentdiv, presentdist, presentupa, presentpourosova, presentvillage, permanentdiv, permanentdist, permanentupa, permanentpourosova, 
                     permanentvillage, beforeexam, beforegroup, beforetrade, beforeexamyear, beforeresult, beforeschool, beforeroll, institute, tradecode, dept, semester, shift, 

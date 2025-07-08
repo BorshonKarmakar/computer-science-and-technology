@@ -48,7 +48,7 @@ session_start();
                 $repass=$_POST['repass'];
                 $repass_hash=password_hash($repass, PASSWORD_BCRYPT);
                 if($pass === $repass){
-                    $updatepass="UPDATE login set password='$repass_hash' where email='$emailofcst'";
+                    $updatepass="UPDATE login set password='$repass' where email='$emailofcst'";
                     $updatedone=mysqli_query($con, $updatepass);
                     if($updatedone){
                         $_SESSION['updatemsg']="Successfully updated your password"; 

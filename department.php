@@ -155,7 +155,7 @@ if(isset($_POST['submit'])){
         $pass = mysqli_fetch_assoc($select_q);
         $db_pass = $pass['password'];
 
-        if(password_verify($password, $db_pass)){
+        if($db_pass === $password){
             ?>
             <script>
     location.replace("http://localhost/Php/Computer%20Science%20And%20Technology/departmentlog.php");

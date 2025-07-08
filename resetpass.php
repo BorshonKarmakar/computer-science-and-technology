@@ -42,7 +42,7 @@ session_start();
         $email=$_POST['email'];
         $_SESSION['cstemail']=$email;
         $search="select * from login where email='$email' ";
-        $s_query=mysqli_query($con, $search);
+        $s_query=mysqli_query($con, $search);        
         $db=mysqli_fetch_assoc($s_query);
         $db_email=$db['email'];
         $code=random_int(1000, 9999);

@@ -129,6 +129,10 @@ session_start();
                         <button class="btn btn-outline-primary"><a style="text-decoration: none; color: blue" href="http://localhost/Php/Computer%20Science%20And%20Technology/changeresult.php">Change result</a></button>
                     </td>
                 </tr>
+                 <td colspan="2">
+                        <button class="btn btn-outline-primary"><a style="text-decoration: none; color: blue" href="http://localhost/Php/Computer%20Science%20And%20Technology/departmentlog.php">Go To Homepage</a></button>
+                    </td>
+                </tr>
             </table>
        </form>
     </div>
